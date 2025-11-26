@@ -1,0 +1,52 @@
+# 📊 Sales Analytics SQL Project
+
+### Author: **Akshit Movaliya**
+A complete SQL-based Sales Analytics system demonstrating SQL skills for data analyst roles.
+
+---
+
+## 📁 Project Overview
+This project showcases an end-to-end **Sales Analytics Database** built using SQL.  
+It includes:
+
+- Database design  
+- Table creation  
+- Data insertion  
+- JOIN operations  
+- Aggregations (GROUP BY / HAVING)  
+- Window functions  
+- Views  
+- Business insights  
+
+This project is suitable for Data Analyst, BI Analyst, SQL Developer, and Data Engineering interviews.
+
+---
+
+## 🗄️ Database Schema
+
+### **Customers**
+| Column | Type |
+|--------|------|
+| customer_id | INTEGER (PK) |
+| customer_name | TEXT |
+| city | TEXT |
+
+### **Products**
+| Column | Type |
+|--------|------|
+| product_id | INTEGER (PK) |
+| product_name | TEXT |
+| category | TEXT |
+| price | INTEGER |
+
+### **Orders**
+| Column | Type |
+|--------|------|
+| order_id | INTEGER (PK) |
+| customer_id | INTEGER (FK) |
+| order_date | TEXT |
+
+### **OrderItems**
+| Column | Type |
+|--------|------|
+| order_it_
